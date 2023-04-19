@@ -1,0 +1,21 @@
+
+
+while 1 > 0:
+    import random
+    print("Você Está bem?")
+    print("Sim ou Não")
+    a = str(input(">>>"))
+    if a == "Sim" or a == "sim":
+        s = ["Que bom.","Abandone antes de tentar e evite maiores frustrações.", "Sempre deixa par amanhã oque você pode fazer hoje.","Não Desista tudo tem o momento ceto para da errado.","Quando a vida te derrubar, continue no chão e tire uma soneca", "Se a vida te der um limão chupe ele."]
+        print(s[random.randint(0, 5)])
+    else:
+        n = ['Respire fundo e continue, é proibido desistir', "Relaxi tudo vai ficar bem","Não tenha medo de crescer devagar, tenha medo somente de ficar parado","Se você não tiver animação para acreditar que pode mudar, as coisas vão permanecer iguais"]
+    
+        print(n[random.randint(0, 3)])
+    print("Quer responder denovo?")
+    print("Sim para Sim e Não para Não")
+    c = str(input(">>>"))
+    if c == "sim" or c == "Sim" or c == "s":
+        3+3
+    else:
+        break
